@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.container {
+  max-width: 700px;
+  height: 500px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.location p {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.temp h1 {
+  font-size: 6rem;
+  text-align: center;
+  color: #fff;
+}
+
+.description p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.bold {
+  font-weight: 700;
+}
